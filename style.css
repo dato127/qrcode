@@ -1,0 +1,74 @@
+
+body {
+    background-color: #1F314F;
+}
+@font-face {
+    font-family: "outfit";
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+/*პირველი div ელემენტის სელექტორი*/
+.div1 {
+    display: flex;
+    padding: 152px 0px 151px 0px;
+    justify-content: center;
+    align-items: center;
+}
+/*მეორე div ელემენტის სელექტორი*/
+.div2 {
+    
+    width: 320px;
+    height: 497px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+/*მესამე div ელემენტის სელექტორი*/
+.div3 {
+    
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background-color: #1F314F;
+    margin: 16px;
+    text-align: center;
+}
+
+img {
+    padding: 64px;
+}
+/*მეოთხე div ელემენტის სელექტორი რომელიც p2 პარაგრაფის div ელემენტია*/
+.div4 {
+    display: flex;
+    justify-content: center;
+    height: 0%;
+
+}
+/*პირველი პარაგრაფის სელექტორი*/
+.p1 {
+    color: var(--Dark-Navy, #1F314F);
+   
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 700;
+    width: 288px;
+    height: 56px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-bottom: 0%;
+
+}
+/*მეორე პარაგრაფის სელექტორი*/
+.p2 {
+    color: #7D889E;
+    font-family: "Outfit";
+    font-size: 15px;
+    font-weight: 400;
+    width: 256px;
+    height: 57px;
+    margin-top: 16px;
+   
+    
+
+    
+}
